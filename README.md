@@ -37,9 +37,11 @@ Tests are in `test/*`. Edit files here, and run:
 
 `npm run test`
 
-## Building
+## Publishing
 
-`npm run build`
+You can set a component name in `package.json` and publish as usual with `npm publish`.
+
+However, see the following section to make your life a lot easier.
 
 ## Continuous Deployment
 
