@@ -50,14 +50,14 @@ workflows:
   main:
     jobs:
       - build:
-          context: beyonk
+          context: org-global
           filters:
             branches:
               only: master
             tags:
               only: /v.*/
       - publish:
-          context: beyonk
+          context: org-global
           requires:
             - build
           filters:

@@ -45,7 +45,8 @@ Tests are in `test/*`. Edit files here, and run:
 
 You can set up CI/CD with CircleCI in two easy steps:
 
-Head to [CircleCI](https://www.circleci.com) and add this project.
+* Head to [CircleCI](https://www.circleci.com) and add this project.
+* Add your NPM token as an environment variable called NPM_TOKEN in the org-global context.
 
 Whenever you commit to master, tests and linting will be run.
 
