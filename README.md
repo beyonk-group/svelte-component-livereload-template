@@ -6,7 +6,7 @@
 
 by [@antony](https://github.com/antony)
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) [![CircleCI](https://circleci.com/gh/beyonk-adventures/svelte-component-livereload-template.svg?style=shield)](https://circleci.com/gh/beyonk-adventures/svelte-component-livereload-template)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) [![CircleCI](https://circleci.com/gh/beyonk-adventures/svelte-component-livereload-template.svg?style=shield)](https://circleci.com/gh/beyonk-adventures/svelte-component-livereload-template) [![svelte-v3](https://img.shields.io/badge/svelte-v3-blueviolet.svg)](https://svelte.dev)
 
 ## Features
 
@@ -25,7 +25,7 @@ npx degit git@github.com:beyonk-adventures/svelte-component-livereload-template.
 
 Edit `src/Component.svelte`
 
-`npm run watch`
+`npm run dev`
 
 ## Building
 
