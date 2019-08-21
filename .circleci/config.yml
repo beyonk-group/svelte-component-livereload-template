@@ -14,6 +14,7 @@ jobs:
           - v1-dependencies-{{ checksum "package.json" }}
 
       - run: npm install
+      # - run: npm run lint
       - run: npm run test
       - run: npm run build
 
@@ -39,6 +40,7 @@ jobs:
           - v1-dependencies-{{ checksum "package.json" }}
 
       - run: npm install
+      # - run: npm run lint
       - run: npm run test
       - run: npm run build
 
