@@ -1,6 +1,6 @@
 {
   "name": "<component name>",
-  "svelte": "src/index.svelte",
+  "svelte": "src/Component.svelte",
   "module": "dist/index.mjs",
   "main": "dist/component.min.js",
   "version": "0.0.0",
@@ -27,6 +27,7 @@
     "dayjs": "^1.8.15",
     "eslint": "^6.1.0",
     "esm": "^3.2.25",
+    "fetch-mock": "^7.3.9",
     "jest": "^24.8.0",
     "jest-transform-svelte": "^2.0.2",
     "jsdom": "^15.1.1",
