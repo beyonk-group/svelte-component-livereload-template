@@ -49,7 +49,8 @@
     "svelte"
   ],
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "eslintConfig": {
     "extends": "@beyonk",
